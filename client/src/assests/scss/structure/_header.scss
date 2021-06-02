@@ -1,0 +1,130 @@
+.header {
+  //grid-area: header;
+  -ms-flex-pack: justify;
+  background: #343a40;
+  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  height: 6rem;
+}
+.headerlinks {
+  display: flex;
+  justify-content: center;
+}
+.headername {
+  font-size: 2.5rem;
+  color: #fff;
+  &:hover {
+    color: #fff;
+  }
+}
+.headerusername {
+  display: flex;
+  font-size: 20px;
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+  margin-top: 1.2rem;
+  &:hover {
+    background-color: #343a40;
+  }
+}
+
+.headerusericon {
+  color: #f1b44c;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.links {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: 30px;
+  padding: 10px 10px;
+  // justify-content: space-between;
+}
+
+.dropdown {
+  background-color: #343a40;
+}
+
+.logout {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #343a40;
+  color: white;
+  font-size: 20px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  &:hover {
+    background-color: #343a40;
+    color: white;
+  }
+}
+
+.cart {
+  color: #f1b44c;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+}
+
+.cartname {
+  color: white;
+  font-size: 20px;
+  // margin-left: 5px;
+  font-weight: 100;
+}
+
+@media (max-width: 992px) {
+  .headername {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 556px) {
+  .headername {
+    font-size: 1.8rem;
+  }
+  .headerusername {
+    font-size: 15px;
+  }
+
+  .logout {
+    font-size: 15px;
+    padding: 5px 3px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*.button {
+  font-size: 2rem;
+  padding: 0.5rem;
+  background: none;
+  color: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close {
+  border-radius: 50%;
+  border: 0.1rem black solid;
+  background: #fff;
+  width: 3rem;
+  font-size: 2rem;
+  height: 3rem;
+  padding-top: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.5rem;
+}
+.close:hover {
+  transform: scale(1.3);
+}*/

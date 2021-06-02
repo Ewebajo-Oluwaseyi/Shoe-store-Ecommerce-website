@@ -1,0 +1,18 @@
+@import './node_modules/bootstrap/scss/functions';
+@import './node_modules/bootstrap/scss/variables';
+@import './node_modules/bootstrap/scss/bootstrap';
+
+@import 'structure/header';
+@import './general.scss';
+
+@import 'pages/homepage';
+@import 'pages/cart';
+@import 'pages/productPage';
+@import 'pages/signinpage';
+@import 'pages/placeorderpage';
+
+@import './icons/boxicons';
+@import './icons/dripicons';
+@import './icons/fontawesome-all';
+@import './icons/fontawesome';
+@import './icons/materialdesignicons';

@@ -1,0 +1,138 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 6rem;
+}
+.formreg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 4rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+  padding: 2rem;
+  border: 2px solid #c0c0c0;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.formContainerLi {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.input {
+  padding: 1rem;
+  border: 0.1rem solid #c0c0c0;
+  border-radius: 0.5rem;
+}
+
+.button {
+  padding: 1rem;
+  margin: 0.8rem 1rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f1b44c;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  border: 0.1rem #404040 solid;
+}
+.back {
+  padding: 1rem;
+  margin: 0.8rem 1rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f0f0f0;
+}
+.back:hover {
+  border: 0.1rem #404040 solid;
+}
+.edit {
+  padding: 1rem;
+  margin: 0.8rem 1rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f0f0f0;
+}
+.delete {
+  padding: 1rem;
+  margin: 0.8rem 1rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f0f0f0;
+}
+.register {
+  padding: 1rem;
+  margin: 0.8rem 1rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f0f0f0;
+  text-align: center;
+}
+.register:hover {
+  border: 0.1rem #404040 solid;
+}
+
+.content {
+  margin: 1rem;
+}
+.productHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.table {
+  width: 100%;
+}
+
+.th {
+  text-align: left;
+}
+
+.tbody > .tr:nth-child(odd) {
+  background: #f0f0f0;
+}
+
+.payment {
+  margin-top: 2rem;
+}
+
+.placeorderh3 {
+  color: #f1b44c;
+}
+.paymentdiv {
+  display: flex;
+  // justify-content: space-between;
+}
+
+.paymentinput {
+  margin-left: 2rem;
+}
+.paymentbtn {
+  margin-top: 2rem;
+}
+.store {
+  color: #f1b44c;
+  justify-content: center;
+  margin: 0 auto;
+}
+.siginlabel {
+  margin-bottom: 1.2rem;
+}

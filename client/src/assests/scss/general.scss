@@ -1,0 +1,149 @@
+html {
+  position: relative;
+  font-size: 62.5%;
+  min-height: 100%;
+}
+body {
+  font: 1.5rem Helvetica;
+  margin: 0;
+}
+
+a {
+  //color: black;
+  text-decoration: none !important;
+  //padding: 0.6rem;
+  list-style: none;
+  color: #495057;
+  //font-weight: bold;
+  &:hover {
+    color: #495057;
+  }
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #495057;
+}
+
+/*.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100%;
+}*/
+
+.grid-container {
+  background-color: #fff;
+  overflow: hidden;
+  height: 100%;
+}
+
+.main {
+  //grid-area: main;
+  //min-height: 100vh;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  //opacity: 0.2;
+  // color: gray;
+}
+
+.show {
+  &:hover {
+    .main {
+      opacity: 0.2;
+      color: gray;
+    }
+  }
+}
+.footer {
+  // grid-area: footer;
+  position: absolute;
+  bottom: 0;
+  background: #343a40;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+.nav-links {
+  position: absolute;
+  right: 400px;
+  left: 0px;
+  width: 20%;
+  height: 84%;
+  transform: translateX(-400px);
+  background: #6c757d;
+
+  transition: transform 0.5s ease-in;
+}
+.nav-links h2 {
+  margin-left: 1rem;
+}
+.nav-links li {
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  letter-spacing: 5px;
+}
+.nav-links a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+.nav-links.open {
+  transform: translateX(0);
+  height: 84%;
+}
+
+.burger {
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background: none;
+  color: black;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #808080;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.checkout-steps {
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+  margin: 1rem auto;
+  padding-top: 2rem;
+  padding-bottom: 0.2rem;
+}
+
+.checkout-steps > div {
+  border-top: 0.3rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex: 1 1;
+  padding-top: 0.5rem;
+}
+.checkout-steps > div.active {
+  border-top: 0.3rem #f08000 solid;
+  color: #f08000;
+}

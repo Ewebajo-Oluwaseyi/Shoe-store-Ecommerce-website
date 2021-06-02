@@ -1,0 +1,132 @@
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0.6rem;
+  list-style: none;
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  align-items: flex-start;
+}
+
+.cartList {
+  flex: 3 1 60rem;
+}
+
+.cartAction {
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  margin: 2rem 1rem;
+  background-color: #ffff;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.cartActionUl {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.cartActionLi {
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  //display: flex;
+}
+.checkoutbutton {
+  padding: 1rem;
+  margin-top: 2rem;
+  margin: 0.3rem 1rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 2rem;
+  cursor: pointer;
+  background: #f1b44c;
+  justify-content: center;
+  align-items: center;
+}
+.cartpriceli {
+  font-size: 2rem;
+}
+.cartprice {
+  margin-left: 1rem;
+  color: rgb(236, 143, 110);
+}
+.cartListContainer {
+  padding: 1rem;
+  list-style: none;
+}
+.cartListContainer img {
+  max-width: 5rem;
+  max-height: 5rem;
+}
+.cartListContainerLi {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px #c0c0c0 solid;
+}
+.cartListContainerLi:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.remove {
+  padding: 0.5rem;
+  font-size: 13px;
+  // margin: 1rem 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f0c040;
+  &:hover {
+    border: 0.1rem #404040 solid;
+  }
+}
+@media (max-width: 572px) {
+  .remove {
+    padding: 0.4rem;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+}
+
+.update {
+  padding: 0.5rem;
+  //margin: 1rem 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f0c040;
+  &:hover {
+    border: 0.1rem #404040 solid;
+  }
+}
+
+#404040#410707 .cartImage {
+  flex: 1 1;
+}
+
+.cartName {
+  flex: 8 1;
+}
+
+.cartPrice {
+  flex: 1 1;
+  font-size: 2.5rem;
+  text-align: right;
+}
